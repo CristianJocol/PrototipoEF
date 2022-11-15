@@ -31,8 +31,10 @@ namespace CapaVista
             {
                 timer1.Stop();
                 this.Hide();
-                MenuPrincipal menu = new MenuPrincipal();
-                menu.ShowDialog();
+                //MenuPrincipal menu = new MenuPrincipal();
+                //menu.ShowDialog();
+                LogIn log = new LogIn();
+                log.ShowDialog();
             }
         }
 
